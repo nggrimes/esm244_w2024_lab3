@@ -47,7 +47,7 @@ ca_counties_sf <- read_sf(here("data/ca_counties"), layer = "CA_Counties_TIGER20
 
 ### Read in the depth to groundwater layer: 
 ca_dgw_sf <- read_sf(here('data/ca_dgw', 
-                          'F2013_DBGS_Points_20150720_093252.gpkg')) %>% 
+                          'ca_dgw_for_lab.gpkg')) %>% 
   janitor::clean_names()
 
 ```
